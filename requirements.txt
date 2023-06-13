@@ -1,0 +1,39 @@
+we are a book managing company
+
+BOOKS
+ISBN , Title , pub_date ,number of pages , languauge , AUTHOR[] , categories
+
+AUTHOR
+id , name , books[]
+
+PUBLICATION
+id name BOOKS[]
+
+1. API FOR books
+to get all the books in the database
+to get a specific book 
+to get list of books of a category
+to get a list of books of a languauge
+to get a list of books of a particular author
+
+2.API FOR AUTHOR
+to get list of all the authors
+to get a particular authors
+to get a list of authors on a given book
+
+3.API FOR PUBLISHER
+to get list of all the publishers
+to get a particular publisher
+to get a list of publisher on a given book
+
+
+##POST
+1. ADD NEW BOOKS
+2. ADD NEW author
+3. ADD NEW PUBLICATION
+
+##DELETE
+1. DELETE A BOOK
+2. DELETE AN AUTHOR FROM THE BOOK 
+3. DELETE AUTHOR FROM BOOK AND CORRESPONDING BOOK FROM AUTHOR
+
